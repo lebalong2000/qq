@@ -1,26 +1,39 @@
-<VAST version="3.0">
+<VAST version="4.2">
   <Ad id="1">
     <InLine>
-      <AdSystem>FreeAds</AdSystem>
-      <AdTitle>Demo Ad</AdTitle>
-      <Impression><![CDATA[https://example.com]]></Impression>
+      <AdSystem>AdServer</AdSystem>
+      <AdTitle>tvc2-hentaizbot</AdTitle>
+
       <Creatives>
         <Creative>
-          <Linear>
-            <Duration>00:00:10</Duration>
-            <VideoClicks>
-              <ClickThrough><![CDATA[https://earnapp.com/i/yLWYxjYI]]></ClickThrough>
-            </VideoClicks>
+          <Linear skipoffset="00:00:05">
+            
+            <Duration>00:00:30</Duration>
+
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4">
+              <MediaFile
+                delivery="progressive"
+                type="application/x-mpegURL"
+                width="1920"
+                height="1080">
                 <![CDATA[
-https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+https://p1.spexliu.top/videos/693fc9d2be60db72fa04e283/master.m3u8?s=nNkccowJggzVMbnZwymYN6a29W0
                 ]]>
               </MediaFile>
             </MediaFiles>
+
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[
+https://lu88.kim/khuyen-mai/vqmm?i=lu0a0002133&utm_source=hentaizbot&utm_medium=tvc2&utm_campaign=cpd&utm_term=sex&referrer_domain=hentaiz.bot
+                ]]>
+              </ClickThrough>
+            </VideoClicks>
+
           </Linear>
         </Creative>
       </Creatives>
+
     </InLine>
   </Ad>
 </VAST>
